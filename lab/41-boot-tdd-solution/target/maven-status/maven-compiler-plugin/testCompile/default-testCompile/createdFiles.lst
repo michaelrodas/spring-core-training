@@ -1,0 +1,6 @@
+io/pivotal/workshop/CarControllerSliceTests.class
+io/pivotal/workshop/CarServiceUnitTests.class
+io/pivotal/workshop/CarRepositorySliceTests.class
+io/pivotal/workshop/CarServiceCachingSliceTests.class
+io/pivotal/workshop/SpringBootTddApplicationTests.class
+io/pivotal/workshop/CarServiceSliceTests.class

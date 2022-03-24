@@ -1,0 +1,4 @@
+accounts/web/AccountControllerTests.class
+accounts/client/AuthorizationServerTests.class
+accounts/client/AccountClientTests$TestClientConfig.class
+accounts/client/AccountClientTests.class

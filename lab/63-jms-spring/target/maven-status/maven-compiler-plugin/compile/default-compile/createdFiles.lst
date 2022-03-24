@@ -1,0 +1,12 @@
+rewards/AccountContribution$Distribution.class
+rewards/RewardNetwork.class
+config/JmsInfrastructureConfig.class
+rewards/AccountContribution.class
+rewards/Dining.class
+rewards/internal/RewardNetworkImpl.class
+rewards/jms/client/RewardConfirmationLogger.class
+rewards/RewardConfirmation.class
+rewards/jms/client/JmsDiningBatchProcessor.class
+rewards/jms/client/DiningBatchProcessor.class
+config/ClientConfig.class
+config/RootConfig.class

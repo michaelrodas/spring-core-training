@@ -1,0 +1,11 @@
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/config/ClientConfig.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/config/JmsInfrastructureConfig.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/jms/client/DiningBatchProcessor.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/internal/RewardNetworkImpl.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/config/RootConfig.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/AccountContribution.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/jms/client/RewardConfirmationLogger.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/RewardConfirmation.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/jms/client/JmsDiningBatchProcessor.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/RewardNetwork.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/63-jms-spring/src/main/java/rewards/Dining.java

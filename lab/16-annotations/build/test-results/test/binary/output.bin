@@ -1,0 +1,12 @@
+A ::                                                         ____
+B /\    ____                 ____             _              \ \ \
+D|/\|  / ___|___  _ __ ___  / ___| _ __  _ __(_)_ __   __ _   \ \ \ 
+D     | |   / _ \| '__/ _ \ \___ \| '_ \| '__| | '_ \ / _` |   \ \ \
+D     | |__| (_) | | |  __/  ___) | |_) | |  | | | | | (_| |   / / /
+D      \____\___/|_|  \___| |____/| .__/|_|  |_|_| |_|\__, |  / / / 
+C ================================|_|==================|___/=/_/_/=
+@   :: Pivotal Training ::                  :: v5.3.a.RELEASE ::
+
+½INFO : o.springframework.boot.SpringApplication - Starting application on LMAC-F40JEMD6R with PID 97214 (started by mrodas in /Users/mrodas/dev/wks/core-spring-labfiles/lab/16-annotations)
+sINFO : o.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+oINFO : o.springframework.boot.SpringApplication - Started application in 0.852 seconds (JVM running for 1.701)

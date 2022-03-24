@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.RewardNetworkTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-22T12:58:19" hostname="LMAC-F40JEMD6R" time="0.778">
+  <properties/>
+  <testcase name="testRewardForDining()" classname="rewards.RewardNetworkTests" time="0.778"/>
+  <system-out><![CDATA[INFO : o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO : o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ecad4fc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@a6b5c59, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@39ce493b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35f88f78, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4d6dc00f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1db4d46f, org.springframework.test.context.event.EventPublishingTestExecutionListener@5678c173, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@278a078b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c4d6cd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3f686d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f8b5051, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@584abc74, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7a1a7b0e]
+INFO : rewards.LoggingBeanPostProcessor - NEW TestInfrastructureConfig -> testInfrastructureConfig
+INFO : rewards.LoggingBeanPostProcessor - NEW TestInfrastructureLocalConfig$$EnhancerBySpringCGLIB$$c7118cb8 -> testInfrastructureLocalConfig
+INFO : r.internal.account.JdbcAccountRepository - Creating JdbcAccountRepository
+INFO : rewards.LoggingBeanPostProcessor - NEW EmbeddedDataSourceProxy -> dataSource
+INFO : rewards.LoggingBeanPostProcessor - NEW JdbcAccountRepository -> jdbcAccountRepository
+INFO : r.i.restaurant.JdbcRestaurantRepository - Creating JdbcRestaurantRepository
+INFO : r.i.restaurant.JdbcRestaurantRepository - Loading restaurant cache
+INFO : r.i.restaurant.JdbcRestaurantRepository - Finished loading restaurant cache
+INFO : rewards.LoggingBeanPostProcessor - NEW JdbcRestaurantRepository -> jdbcRestaurantRepository
+INFO : r.internal.reward.JdbcRewardRepository - Creating JdbcRewardRepository
+INFO : rewards.LoggingBeanPostProcessor - NEW JdbcRewardRepository -> jdbcRewardRepository
+INFO : rewards.LoggingBeanPostProcessor - NEW RewardNetworkImpl -> rewardNetwork
+INFO : rewards.LoggingBeanPostProcessor - NEW RewardsConfig$$EnhancerBySpringCGLIB$$bfbe28e4 -> config.RewardsConfig
+INFO : rewards.LoggingBeanPostProcessor - NEW RewardNetworkTests -> rewards.RewardNetworkTests.ORIGINAL
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

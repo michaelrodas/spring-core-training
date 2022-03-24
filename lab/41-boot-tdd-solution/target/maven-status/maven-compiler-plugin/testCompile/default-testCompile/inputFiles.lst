@@ -1,0 +1,6 @@
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/41-boot-tdd-solution/src/test/java/io/pivotal/workshop/SpringBootTddApplicationTests.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/41-boot-tdd-solution/src/test/java/io/pivotal/workshop/CarServiceCachingSliceTests.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/41-boot-tdd-solution/src/test/java/io/pivotal/workshop/CarControllerSliceTests.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/41-boot-tdd-solution/src/test/java/io/pivotal/workshop/CarRepositorySliceTests.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/41-boot-tdd-solution/src/test/java/io/pivotal/workshop/CarServiceUnitTests.java
+/Users/mrodas/dev/wks/core-spring-labfiles/lab/41-boot-tdd-solution/src/test/java/io/pivotal/workshop/CarServiceSliceTests.java

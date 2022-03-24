@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rewards.RewardNetworkTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-23T13:13:40" hostname="LMAC-F40JEMD6R" time="0.303">
+  <properties/>
+  <testcase name="testRewardForDining()" classname="rewards.RewardNetworkTests" time="0.303"/>
+  <system-out><![CDATA[INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [rewards.RewardNetworkTests], using SpringBootContextLoader
+INFO : o.s.t.c.support.AbstractContextLoader - Could not detect default resource locations for test class [rewards.RewardNetworkTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57facff4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3308f3fe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18601602, org.springframework.test.context.support.DirtiesContextTestExecutionListener@420b157f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@438ff7a5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@37ec6b29, org.springframework.test.context.event.EventPublishingTestExecutionListener@2f24abd0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359ef3a6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@990086f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5df18f57, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5701d512, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@15400f97, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c9abe20]
+ ::                                                         ____
+ /\    ____                 ____             _              \ \ \
+|/\|  / ___|___  _ __ ___  / ___| _ __  _ __(_)_ __   __ _   \ \ \ 
+     | |   / _ \| '__/ _ \ \___ \| '_ \| '__| | '_ \ / _` |   \ \ \
+     | |__| (_) | | |  __/  ___) | |_) | |  | | | | | (_| |   / / /
+      \____\___/|_|  \___| |____/| .__/|_|  |_|_| |_|\__, |  / / / 
+ ================================|_|==================|___/=/_/_/=
+   :: Pivotal Training ::                  :: v5.3.a.RELEASE ::
+
+INFO : rewards.RewardNetworkTests - Starting RewardNetworkTests on LMAC-F40JEMD6R with PID 14509 (started by mrodas in /Users/mrodas/dev/wks/core-spring-labfiles/lab/34-spring-data-jpa)
+INFO : rewards.RewardNetworkTests - No active profile set, falling back to default profiles: default
+INFO : o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO : o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 2 JPA repository interfaces.
+DEBUG: com.zaxxer.hikari.HikariConfig - Driver class org.hsqldb.jdbcDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+DEBUG: com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+DEBUG: com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+DEBUG: com.zaxxer.hikari.HikariConfig - autoCommit......................true
+DEBUG: com.zaxxer.hikari.HikariConfig - catalog.........................none
+DEBUG: com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+DEBUG: com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+DEBUG: com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSource......................none
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+DEBUG: com.zaxxer.hikari.HikariConfig - driverClassName................."org.hsqldb.jdbcDriver"
+DEBUG: com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+DEBUG: com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+DEBUG: com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+DEBUG: com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+DEBUG: com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+DEBUG: com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+DEBUG: com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:hsqldb:mem:9791614e-a055-4652-98e7-5eb1f4e20154
+DEBUG: com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+DEBUG: com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+DEBUG: com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+DEBUG: com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+DEBUG: com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+DEBUG: com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+DEBUG: com.zaxxer.hikari.HikariConfig - password........................<masked>
+DEBUG: com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+DEBUG: com.zaxxer.hikari.HikariConfig - readOnly........................false
+DEBUG: com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+DEBUG: com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+DEBUG: com.zaxxer.hikari.HikariConfig - schema..........................none
+DEBUG: com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+DEBUG: com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+DEBUG: com.zaxxer.hikari.HikariConfig - username........................"sa"
+DEBUG: com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+INFO : com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+WARN : com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+DEBUG: com.zaxxer.hikari.util.DriverDataSource - Driver class org.hsqldb.jdbcDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+INFO : com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@4fe6e889
+INFO : com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@77f366dc
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@79349652
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@7d0b0dac
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@38099c69
+INFO : o.s.s.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@5420c832
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@9fb42e2
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@2c38481c
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@58266326
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@a155148
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+INFO : o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+INFO : o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+INFO : rewards.RewardNetworkTests - Started RewardNetworkTests in 2.846 seconds (JVM running for 3.892)
+Hibernate: 
+    select
+        account0_.id as id1_0_,
+        account0_.credit_card as credit_c2_0_,
+        account0_.name as name3_0_,
+        account0_.number as number4_0_ 
+    from
+        t_account account0_ 
+    where
+        account0_.credit_card=?
+Hibernate: 
+    select
+        restaurant0_.id as id1_2_,
+        restaurant0_.benefit_percentage as benefit_2_2_,
+        restaurant0_.name as name3_2_,
+        restaurant0_.merchant_number as merchant4_2_ 
+    from
+        t_restaurant restaurant0_ 
+    where
+        restaurant0_.merchant_number=?
+Hibernate: 
+    select
+        beneficiar0_.account_id as account_5_1_0_,
+        beneficiar0_.id as id1_1_0_,
+        beneficiar0_.id as id1_1_1_,
+        beneficiar0_.allocation_percentage as allocati2_1_1_,
+        beneficiar0_.name as name3_1_1_,
+        beneficiar0_.savings as savings4_1_1_ 
+    from
+        t_account_beneficiary beneficiar0_ 
+    where
+        beneficiar0_.account_id=?
+Hibernate: 
+    update
+        t_account_beneficiary 
+    set
+        allocation_percentage=?,
+        name=?,
+        savings=? 
+    where
+        id=?
+Hibernate: 
+    update
+        t_account_beneficiary 
+    set
+        allocation_percentage=?,
+        name=?,
+        savings=? 
+    where
+        id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

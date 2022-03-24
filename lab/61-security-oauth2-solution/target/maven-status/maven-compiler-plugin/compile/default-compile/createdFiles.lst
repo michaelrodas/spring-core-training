@@ -1,0 +1,7 @@
+accounts/SecureRestAccountsApplication.class
+accounts/web/AccountController.class
+auth/AuthorizationServer$1.class
+auth/AuthorizationServer.class
+config/CustomHttpTraceRepository.class
+accounts/SecureRestAccountsApplication$1.class
+config/Constants.class

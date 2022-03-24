@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="accounts.client.AccountClientSecurityTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-03-24T15:17:48" hostname="LMAC-F40JEMD6R" time="1.051">
+  <properties/>
+  <testcase name="user_in_ADMIN_role_can_access_conditions_endpoint()" classname="accounts.client.AccountClientSecurityTests" time="0.592"/>
+  <testcase name="any_user_can_access_health_endpoint()" classname="accounts.client.AccountClientSecurityTests" time="0.234"/>
+  <testcase name="any_user_cannot_access_conditions_endpoint()" classname="accounts.client.AccountClientSecurityTests" time="0.102"/>
+  <testcase name="user_in_ACTUATOR_role_cannot_access_conditions_endpoint()" classname="accounts.client.AccountClientSecurityTests" time="0.108"/>
+  <testcase name="any_user_can_access_info_endpoint()" classname="accounts.client.AccountClientSecurityTests" time="0.011"/>
+  <system-out><![CDATA[INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [accounts.client.AccountClientSecurityTests], using SpringBootContextLoader
+INFO : o.s.t.c.support.AbstractContextLoader - Could not detect default resource locations for test class [accounts.client.AccountClientSecurityTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO : o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [accounts.client.AccountClientSecurityTests]: AccountClientSecurityTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration accounts.ActuatorApplication for test class accounts.client.AccountClientSecurityTests
+INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+INFO : o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@380447e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b4cd184, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7aff3f70, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4cf46393, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56d53e95, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b78153a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38ffb99a, org.springframework.test.context.event.EventPublishingTestExecutionListener@5778aded, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@28261001, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@538c01fa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@167a5178, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4ff919f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1c412f19, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2ff17eba]
+ ::                                                         ____
+ /\    ____                 ____             _              \ \ \
+|/\|  / ___|___  _ __ ___  / ___| _ __  _ __(_)_ __   __ _   \ \ \ 
+     | |   / _ \| '__/ _ \ \___ \| '_ \| '__| | '_ \ / _` |   \ \ \
+     | |__| (_) | | |  __/  ___) | |_) | |  | | | | | (_| |   / / /
+      \____\___/|_|  \___| |____/| .__/|_|  |_|_| |_|\__, |  / / / 
+ ================================|_|==================|___/=/_/_/=
+   :: Pivotal Training ::                  :: v5.3.a.RELEASE ::
+
+INFO : a.client.AccountClientSecurityTests - Starting AccountClientSecurityTests on LMAC-F40JEMD6R with PID 22931 (started by mrodas in /Users/mrodas/dev/wks/core-spring-labfiles/lab/44-actuator)
+DEBUG: a.client.AccountClientSecurityTests - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+INFO : a.client.AccountClientSecurityTests - No active profile set, falling back to default profiles: default
+INFO : o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+INFO : o.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+INFO : org.apache.catalina.core.StandardService - Starting service [Tomcat]
+INFO : org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+INFO : o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+INFO : o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1680 ms
+DEBUG: i.m.c.u.i.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+DEBUG: com.zaxxer.hikari.HikariConfig - Driver class org.hsqldb.jdbcDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+DEBUG: com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+DEBUG: com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+DEBUG: com.zaxxer.hikari.HikariConfig - autoCommit......................true
+DEBUG: com.zaxxer.hikari.HikariConfig - catalog.........................none
+DEBUG: com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+DEBUG: com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+DEBUG: com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSource......................none
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+DEBUG: com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+DEBUG: com.zaxxer.hikari.HikariConfig - driverClassName................."org.hsqldb.jdbcDriver"
+DEBUG: com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+DEBUG: com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+DEBUG: com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+DEBUG: com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+DEBUG: com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+DEBUG: com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+DEBUG: com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:hsqldb:mem:dbef35ba-38da-45a3-b200-c845ee08c20b
+DEBUG: com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+DEBUG: com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+DEBUG: com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+DEBUG: com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+DEBUG: com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+DEBUG: com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+DEBUG: com.zaxxer.hikari.HikariConfig - password........................<masked>
+DEBUG: com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+DEBUG: com.zaxxer.hikari.HikariConfig - readOnly........................false
+DEBUG: com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+DEBUG: com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+DEBUG: com.zaxxer.hikari.HikariConfig - schema..........................none
+DEBUG: com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+DEBUG: com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+DEBUG: com.zaxxer.hikari.HikariConfig - username........................"sa"
+DEBUG: com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+INFO : com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+WARN : com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+DEBUG: com.zaxxer.hikari.util.DriverDataSource - Driver class org.hsqldb.jdbcDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+INFO : com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@4395cb80
+INFO : com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@296b4be9
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@27aca0b4
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@23932099
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@6691aa8f
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@155691b7
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@57bd2aa9
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@6d904f2f
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@6be55c0
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@2744b789
+DEBUG: com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+WARN : o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO : config - Created JpaRestaurantRepository
+INFO : accounts.internal.JpaAccountManager - Created JPA account-manager
+INFO : o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dfe8d50, org.springframework.security.web.context.SecurityContextPersistenceFilter@78ba89e9, org.springframework.security.web.header.HeaderWriterFilter@384c2076, org.springframework.security.web.authentication.logout.LogoutFilter@6013b5a3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79b8db21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5434cab0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ca70ca6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68fd4157, org.springframework.security.web.session.SessionManagementFilter@ebe6db6, org.springframework.security.web.access.ExceptionTranslationFilter@5769da0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ff859b1]
+INFO : config - Created JpaAccountManager
+INFO : config - Created JdbcRewardRepository
+INFO : o.s.s.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+INFO : o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+INFO : o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+INFO : o.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+INFO : o.s.b.w.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 62138 (http) with context path ''
+INFO : a.client.AccountClientSecurityTests - Started AccountClientSecurityTests in 4.988 seconds (JVM running for 6.115)
+INFO : o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

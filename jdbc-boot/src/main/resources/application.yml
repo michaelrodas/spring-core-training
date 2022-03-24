@@ -1,0 +1,7 @@
+logging.level.root=ERROR
+---
+
+spring:
+  datasource:
+    schema: db/schema.sql
+    data: db/data.sql

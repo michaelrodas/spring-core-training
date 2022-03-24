@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="accounts.web.AccountControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-23T15:26:31" hostname="LMAC-F40JEMD6R" time="0.184">
+  <properties/>
+  <testcase name="testHandleListRequest()" classname="accounts.web.AccountControllerTests" time="0.181"/>
+  <testcase name="testHandleDetailsRequest()" classname="accounts.web.AccountControllerTests" time="0.002"/>
+  <system-out><![CDATA[INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+INFO : accounts.internal.StubAccountManager - Created STUB account-manager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
